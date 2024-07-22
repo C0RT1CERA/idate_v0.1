@@ -30,5 +30,5 @@ export async function GET() {
     }
 
     // Corrected redirect to ensure proper URL formatting
-    return NextResponse.redirect('http://localhost:3000');
+    return NextResponse.redirect('https://www.revmedsync.com');
 }
