@@ -1,6 +1,7 @@
 import { Footer } from "@/components/storefront/Footer";
 import { Navbar } from "@/components/storefront/Navbar";
 import { type ReactNode } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function StoreFrontLayout({children}:{children:ReactNode}){
     return(
@@ -10,6 +11,7 @@ export default function StoreFrontLayout({children}:{children:ReactNode}){
                 {children}
             </main>
             <Footer/>
+            <Analytics/>
             
         </>
     )
