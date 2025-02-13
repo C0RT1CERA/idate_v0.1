@@ -30,5 +30,5 @@ export async function GET() {
     }
 
     // Corrected redirect to ensure proper URL formatting
-    return NextResponse.redirect('https://www.revmedsync.com');
+    return NextResponse.redirect('https://idate-v0-1.vercel.app');
 }
